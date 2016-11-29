@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background: #fff;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 100%;
+  color: #000;
+}
+
+#header {
+  background: #fff;
+  height: 90px;
+  vertical-align: middle;
+  display: table-cell;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.menu {
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+  width: 20%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+}
+
+#logo {
+  float: left;
+  width: 20%;
+  vertical-align: middle;
+}
+
+#headerpic {
+  max-width: 100%;
+  width: 100% auto;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#homeMusic {
+  width: 100% auto;
+}
+
+#albumcover {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#homeVideos {
+  height: 500px;
+  background: #000;
+  color: #fff;
+  margin: -9px auto 0;
+}
+
+footer {
+  background: #fff;
+  height: 60px;
+}
+
+.SMicon {
+  padding: 7px;
+  width: 40px;
+}
+
+#footerIcons {
+  position: absolute;
+  width: 100%;
+  padding-left: 20px;
+  margin: 0 auto;
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#footerText {
+  padding-right: 20px;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 75%;
+  float: right;
+  display: table-cell;
+  vertical-align: middle;
+}
