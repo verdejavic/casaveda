@@ -5,44 +5,93 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Casaveda</title>
+  <link rel="shortcut icon" href="images/albumcover.jpg"/>
   <link href="https://fonts.googleapis.com/css?family=Catamaran|Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
+<!-- header -->
 <div id="header">
   <p id="navmusic" class="menu">Music</p>
   <p id="navvideos" class="menu">Videos</p>
   <img src="images/logo.jpg" alt="logo" id="logo">
-  <p class="menu">Tour</p>
-  <p class="menu">Media</p>
+  <p id="navshows" class="menu">Shows</p>
+  <p id="navmerch" class="menu">Merch</p>
 </div>
 
+<!-- landing image -->
 <div id="headerpic" class="pic">
   <img src="images/casavedalarge.jpg" srcset="images/casavedamedium.jpg 1000w, images/casavedalarge.jpg 2000w" alt= "Casaveda">
 </div>
 
-<div id="homeMusic">
+<!-- EP -->
+<div id="EP">
+  <div id="EPcover" class="EPbox">
+    <img src="images/albumcover800px.jpg" alt="Album Cover" height=400px id="albumcover">
+  </div>
+  <div id="EPsong" class="EPbox">
+    <h2>Don't miss our latest release!</h2>
+    <div id="EPspotifyframe" class"spotifyframe"><iframe src="https://embed.spotify.com/?uri=spotify:album:2EogE9Sa1Sl0d3s5tnFxPN&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>
+  </div>
+  <div id="EPshirt" class="EPbox">
+    <h2>Check out our official merchandise - </h2>
+    <img src="images/mensshirt.jpg" alt="EP shirt" height=300px id="EPshirtimg">
+  </div>
+</div>
+
+
+<!-- music -->
+<div id="homeMusic" class="offset">
   <h1>Music</h1>
-  <div id="albumcover" class="pic">
-    <img src="images/albumcover800px.jpg" alt="Album Cover" height=400px>
+  <div id="trackscontainer" class="container">
+    <div id="musiccontent">
+      <div id="albums">
+        <img src="images/labyrinths.jpg" class="album" alt="labyrinths and limousines" id="labyrinths">
+        <img src="images/shortstories.jpg" class="album" alt="short stories" id="shortstories">
+      </div>
+      <div id="musicspotifyframe" class="spotifyframe">
+        <h3>Listen now:</h3>
+        <iframe src="https://embed.spotify.com/?uri=spotify:artist:6jtwafX7fS9IraLXaR6eiQ&theme=black" width="550" height="380" frameborder="0" allowtransparency="true"></iframe>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div id="promopic" class="pic">
-  <img src="images/theboyspromosmall.jpg" srcset="images/theboyspromomedium.jpg 1000w, images/theboyspromolarge.jpg 2000w" alt="Promo">
-</div>
+<!--   <div id="promopic" class="pic">
+    <img src="images/theboyspromosmall.jpg" srcset="images/theboyspromomedium.jpg 1000w, images/theboyspromolarge.jpg 2000w" alt="Promo">
+  </div> -->
 
-<div id="homeVideos">
+<!-- videos -->
+<div id="homeVideos" class="offset">
   <h1>Videos</h1>
+  <div id="video1" class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D_bT3r820PA" frameborder="0" allowfullscreen="false"></iframe>
+  </div>
+  <div id="video2" class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dcz6xOiruE8" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>
 
+<!-- shows -->
+<div id="homeShows" class="offset">
+  <h1 class="whitetext">Upcoming Shows</h1>
+  <div id="showscontainer" class="container">
+    <div id="showscontent">
+      <h2>Check back for upcoming show dates!</h2>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
 <footer>
   <div id="footerIcons">
-    <img src="images/SMicons/facebook.png" alt="fb icon" class="SMicon">
-    <img src="images/SMicons/instagram.png" alt="instagram icon" class="SMicon">
-    <img src="images/SMicons/twitter.png" alt="twitter icon" class="SMicon">
-    <img src="images/SMicons/youtube.png" alt="youtube icon" class="SMicon">
+    <img src="images/SMicons/facebook.png" alt="fb icon" class="SMicon" id="fbicon">
+    <img src="images/SMicons/instagram.png" alt="instagram icon" class="SMicon" id="instaicon">
+    <img src="images/SMicons/twitter.png" alt="twitter icon" class="SMicon" id="twittericon">
+    <img src="images/SMicons/youtube.png" alt="youtube icon" class="SMicon" id="youtubeicon">
   </div>
   <div id="footerText">
     <p>Icons curtesy of <a href="http://willemvanbolderen.nl/">Willem Van Bolderen</a></p>
